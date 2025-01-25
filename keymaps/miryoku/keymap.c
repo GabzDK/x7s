@@ -10,7 +10,7 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         KC_Q,         KC_W,         KC_E,         KC_R,         KC_T,          /*||*/  KC_Y,         KC_U,          KC_I,         KC_O,           KC_P,
-        LGUI_T(KC_A), LALT_T(KC_S), LCTL_T(KC_D), LSFT_T(KC_F), KC_G,          /*||*/  KC_H,         LSFT_T(KC_J),  LCTL_T(KC_K), LALT_T(KC_L),   LGUI_T(KC_SCLN),
+        LGUI_T(KC_A), LALT_T(KC_S), LCTL_T(KC_D), LSFT_T(KC_F), KC_G,          /*||*/  KC_H,         LSFT_T(KC_J),  LCTL_T(KC_K), LALT_T(KC_L),   LGUI_T(KC_QUOT),
         KC_Z,         RALT_T(KC_X), KC_C,         KC_V,         KC_B,          /*||*/  KC_N,         KC_M,          KC_COMM,      RALT_T(KC_DOT), KC_SLSH,
         XXXXXXX,      XXXXXXX,      LT(3,KC_ESC), LT(2,KC_TAB), LT(1,KC_SPC),  /*||*/  LT(5,KC_ENT), LT(4,KC_BSPC), LT(6,KC_DEL), XXXXXXX,       XXXXXXX
     ),
@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         RESET,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   /*||*/  KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
         KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, KC_NO,   /*||*/  KC_NO,   KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R,
         KC_NO,   KC_RALT, KC_NO,   KC_NO,   KC_NO,   /*||*/  KC_NO,   KC_WH_L, KC_WH_D, KC_WH_U, KC_WH_R,
-        XXXXXXX, XXXXXXX, KC_NO,   KC_BTN2, KC_BTN1, /*||*/  KC_BTN3, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
+        XXXXXXX, XXXXXXX, KC_NO,   XXXXXXX, XXXXXXX, /*||*/  KC_BTN1, KC_BTN2, KC_BTN3, XXXXXXX, XXXXXXX
     ),
     [3] = LAYOUT(
         RESET,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   /*||*/  RGB_TOG, RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI,
